@@ -1,0 +1,32 @@
+body{
+    background-color: #d3d3d3;
+    background-image: url('../images/tile-light.jpg');
+    background-repeat: repeat;
+}
+    h6{
+    color: #c0c0c0;
+}
+.container-inner {
+    /* Internet Explorer 10 */
+    display:-ms-flexbox;
+    -ms-flex-pack:center;
+    -ms-flex-align:center;
+    /* Firefox */
+    display:-moz-box;
+    -moz-box-pack:center;
+    -moz-box-align:center;
+    /* Safari, Opera, and Chrome */
+    display:-webkit-box;
+    -webkit-box-pack:center;
+    -webkit-box-align:center;
+    /* W3C */
+    display:box;
+    box-pack:center;
+    box-align:center;
+
+    position:absolute; 
+    top:0; 
+    bottom:0; 
+    right:0; 
+    left:0;
+}

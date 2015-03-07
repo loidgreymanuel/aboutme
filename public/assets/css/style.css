@@ -1,0 +1,752 @@
+/* latest update: Mar 03 2015 4:30 PM */
+
+/* main style for home/index */
+/* general styles */
+html, body {
+  background: url('../images/tile.jpg') repeat;
+  height: 100%;
+  width: 100%;
+  font-family: 'OpenSans-Regular',Helvetica, sans-serif;
+}
+
+nav {
+  font-family: 'OpenSans-Regular',Helvetica, sans-serif;
+}
+
+.navbar {
+  background-color: #131313;
+  opacity: 0.7;
+  border: none;
+}
+
+.navbar-toggle {
+  border-color: none; /* unable to remove hover back color*/
+}
+
+nav #social-link{
+  text-decoration: none;
+}
+
+nav .fa {
+  display: inline-block;
+  font-size: 52px;
+  height: auto;
+  line-height: 52px;
+  text-align: center;
+  vertical-align: middle;
+  width: 52px;
+  color: #AAAAAA;
+}
+
+nav .fa:hover {
+  color: #FFFFFF;
+}
+
+#navbar-collapse-main .nav-link:hover {
+  font-size: 12px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+.pad-section {
+  padding: 15px 50px; 
+}
+
+
+.pad-section img {
+  width: 100%;
+}
+
+.text-vcenter {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.text-vcenter h1 {
+  font-size: 4.5em;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+
+#clearfix{
+  height: 35px;
+}
+/* general styles - End */
+
+/*<!-- Home -->*/
+#home {
+  background: url('../images/primary.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  opacity: 0.8;
+
+  color: #FFFFFF;
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+
+  font-family: 'AlexBrush', 'KaushanScript-Regular';
+  font-size: 102px;
+  text-shadow: 0px 3px 5px #AAAAAA;
+}
+
+#home .sub-text-cover {
+  margin-top: -25px;
+  color: #C0C0C0;
+  font-family: 'OpenSans-Regular',Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  text-shadow: 0px 1px 3px #FAFAFA;
+}
+/*<!-- home section - End -->*/
+
+/*<!-- about -->*/
+#about {
+  background-color: #FFFFFF;
+  display: table;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  -webkit-box-shadow: 0px 0px 25px #FFFFFF; 
+  -moz-box-shadow: 0px 0px 25px #FFFFFF; 
+  box-shadow: 0px 0px 25px #FFFFFF; 
+}
+
+#about .aboutme-a,
+#about .aboutme-m {
+  color: #D7140F;
+}
+
+#about h2 {
+  font-family: 'BrushScriptStd', 'KaushanScript-Regular';
+  font-size: 38px;
+}
+
+#about .aboume-1 {
+
+  font-family: 'Trebuchet MS', Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: bolder;
+}
+
+#about .aboume-2 {
+  font-family: 'OpenSans-Regular',Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+#about .aboume-3 {
+  color: #454545;
+  font-family: 'Ubuntu-RI','OpenSans-Regular',Helvetica;
+  font-size: 16px;
+  font-style: italic;
+}
+/*<!-- about section - End -->*/
+
+/*<!-- subtext-1 -->*/
+#subtext-1 {
+  background: url('../images/coverbg4r.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  opacity: 0.7;
+
+  padding-right: 15%;
+  display: table;
+  height: 85%;
+  position: relative;
+  width: 100%;
+  box-shadow: 0px 0px 5px #0099CC; 
+
+  color: #FFFFFF;
+}
+
+#subtext-1 .motto {
+  font-family: 'AlexBrush-Regular','KaushanScript-Regular';
+  font-size: 42px;
+}
+
+.blockquote-reverse,
+blockquote.pull-right {
+  border-right: 0;
+  border-left: 0;
+}
+
+.blockquote-reverse footer{
+  font-family: 'Trebuchet MS','OpenSans-Regular', sans-serif;
+  font-size: 14px;
+  color: #F0F0F0;
+}
+/*<!-- subtext-1 - End -->*/
+
+/*<!-- What I Do -->*/
+#whatido {
+  background-color: #0099CC;
+  font-family: 'OpenSans-Regular',Helvetica, sans-serif;
+  font-size: 12px;
+  color: #FFFFFF;
+  display: table;
+  height: 50%;
+  position: relative;
+  width: 100%;
+  height: 340px;
+  box-shadow: 0px 0px 25px #FFFFFF;
+}
+
+#whatido h2 {
+  font-family: 'BrushScriptStd', 'KaushanScript-Regular';
+  font-size: 32px;
+  padding-bottom: 2%;
+}
+
+#whatido a{
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+#whatido .fa {
+  border: 2px solid #FFFFFF;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 102px;
+  height: 142px;
+  line-height: 132px;
+  text-align: center;
+  vertical-align: middle;
+  width: 142px;
+}
+#whatido .fa:hover {
+  -webkit-stroke-width: 4.0px;
+  -webkit-stroke-color: #FFFFFF;
+  -webkit-fill-color: #FFFFFF;
+  text-shadow: 1px 0px 20px #FFFFFF;
+  box-shadow: 0px 1px 10px #FFFFFF; 
+}
+/*<!-- What I Do - End -->*/
+
+/*<!-- What I Do 2nd Half-->*/
+#whatido_bot_half {
+  background-color: #FFFFFF;
+  display: table;
+  height: 50%;
+  position: relative;
+  width: 100%;
+}
+
+#whatido_bot_half .panel-title {
+  font-family: 'OpenSans-Regular',Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: bolder;
+}
+
+#whatido_bot_half .panel-body {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 13px;
+  text-align: left;
+}
+
+#whatido_bot_half table .col-lead{
+  vertical-align:top;
+  font-weight: bold;
+}
+#whatido_bot_half table .separator{
+  width: 12px;
+  vertical-align:top;
+  text-align: center;
+}
+#whatido_bot_half table .col-content{
+  color: #3C3C3C;
+}
+
+/*<!-- What I Do 2nd Half - End -->*/
+
+/*<!-- subtext-2 -->*/
+#subtext-2 {
+  background: url('../images/hayg.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  opacity: 0.7;
+
+  padding-left: 15%;
+  display: table;
+  height: 85%;
+  position: relative;
+  width: 100%;
+
+  box-shadow: 0px 0px 5px #0099CC;
+
+  color: #000000;
+}
+
+#subtext-2 .motto {
+  font-family: 'AlexBrush-Regular','KaushanScript-Regular';
+  font-size: 42px;
+}
+
+blockquote {
+  text-align: left;
+  border-right: 0;
+  border-left: 0;
+}
+
+blockquote footer{
+  font-family: 'Trebuchet MS','OpenSans-Regular', sans-serif;
+  font-size: 14px;
+  color: #2C2C2C;
+}
+/*<!-- subtext-2 - End-->*/
+
+/*<!-- What I Use-->*/
+#whatiuse {
+  background-color: #EBA537;
+  font-family: 'OpenSans-Regular',Helvetica, sans-serif;
+  color: #4C4C4C;
+  display: table;
+  height: auto;
+  position: relative;
+  width: 100%;
+  height: 340px;
+
+  -moz-box-shadow:inset 0 2px 5px #EBA555;
+  -webkit-box-shadow:inset 0 2px 5px #EBA555; 
+  -o-box-shadow:inset 0 2px 5px #EBA555;
+  box-shadow:inset 0 2px 5px #EBA555; 
+}
+
+#whatiuse h2 {
+  font-family: 'BrushScriptStd', 'KaushanScript-Regular';
+  font-size: 26px;
+  padding-bottom: 2%;
+}
+
+#whatiuse label {
+  font-size: 12px;
+}
+
+#whatiuse a {
+  color: #4C4C4C;
+  text-decoration: none;
+}
+
+#whatiuse .fa {
+  border-left:2px solid #4C4C4C;
+  border-right:2px solid #4C4C4C;
+  border-radius: 15%;
+
+  display: inline-block;
+  font-size: 42px;
+  height: 72px;
+  line-height: 62px;
+  text-align: center;
+  vertical-align: middle;
+  width: 72px;
+}
+#whatiuse .fa:hover {
+  border-left: 2px solid #6C6C6C;
+  border-right: 2px solid #6C6C6C;
+  border-radius: 18%;
+  font-size: 44px;
+  color: #5C5C5C;
+}
+
+#whatiuse .bstrap {
+  font-family: 'OpenSans-Regular',Helvetica, sans-serif;
+}
+/*<!-- What I Use - End-->*/
+
+/*<!-- What I Use 2nd Half -->*/
+#whatiuse_bot_half {
+  background-color: #FFFFFF;
+  display: table;
+  height: 50%;
+  position: relative;
+  width: 100%;
+}
+
+#whatiuse_bot_half .panel-title {
+  font-family: 'OpenSans-Regular',Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: bolder;
+}
+
+#whatiuse_bot_half .panel-body {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 13px;
+  text-align: left;
+}
+/*<!-- What I Use 2nd Half - End -->*/
+
+/*<!-- google map -->*/
+#google_map {
+  height: 320px;
+}
+
+/*<!-- footer -->*/
+
+#footer,
+#footer-c {
+  background: url('../images/back.png') repeat;
+  background-color: ;
+  color: #ffffff;
+  display: table;
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+
+#footer{
+  height: auto;
+  padding-top: 20px;
+}
+
+#footer-c{
+  height: auto;
+  padding-bottom: 20px;
+}
+
+#footer .pad-section {
+  padding: 10px 0;
+}
+
+ul#footer-social-link,
+ul#footer-social-link li {
+  margin: 0;
+  padding-right: 20px;
+}
+
+ul#footer-social-link li{
+  display: inline-block;
+}
+
+hr {
+  color: #FFFFFF;
+  width: 50%;
+}
+
+#footer .fa {
+  font-size: 102px;
+  height: 102px;
+  line-height: 102px;
+  text-align: center;
+  vertical-align: middle;
+  width: 102px;
+  color: #FFFFFF;
+}
+
+#footer-social-link .fa:hover{
+  text-decoration: none;
+  -webkit-stroke-width: 3.0px;
+  -webkit-stroke-color: #C0C0C0;
+  -webkit-fill-color: #FFFFFF;
+  text-shadow: 1px 0px 20px white;
+}
+
+
+.glyphicon {
+  font-size: 11px;
+}
+
+.glyphicon:hover {
+
+}
+
+/*@ overrides*/
+@font-face {
+    font-family: 'BrushScriptStd'; /*used in home primary font*/
+    src: url('../fonts/BrushScriptStd.ttf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'OpenSans-Regular'; /*used navs|<p> contents*/
+    src: url('../fonts/OpenSans-Regular-webfont.woff'); /*URL to font*/
+}
+
+@font-face {
+  font-family: 'AlexBrush'; /*used in about|what i do as primary font*/
+  src: url('../fonts/AlexBrush-Regular-webfont.woff'); /*URL to font*/
+}
+
+@font-face {
+  font-family: 'AlexBrush-Regular'; /*used in about|what i do as primary font*/
+  src: url('../fonts/AlexBrush-Regular-webfont.woff'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'KaushanScript-Regular'; /*used in motto as primary font*/
+    src: url('../fonts/KaushanScript-Regular-webfont.woff'); /*URL to font*/
+}
+
+@font-face {
+      font-family: 'Ubuntu-R'; /*used in about-> lilne 3  as seondary font*/
+      src: url('../fonts/Ubuntu-R-webfont.woff'); /*URL to font*/
+}
+
+@font-face {
+      font-family: 'Ubuntu-RI'; /*used in about-> lilne 3  as seondary font*/
+      src: url('../fonts/Ubuntu-RI-webfont.woff'); /*URL to font*/
+}
+
+
+@media only screen and (max-width: 768px) {
+  #home { 
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+    font-size: 98px; 
+  }
+
+  #home .sub-text-cover {
+    font-size: 13px;
+  }
+
+  #about h2{
+    font-size: 32px;
+  }
+
+  #about .aboume-3 {
+    font-size: 14px;
+  }
+
+  #subtext-1,
+  #subtext-2 {
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+  }
+
+  #subtext-1 .motto,
+  #subtext-2 .motto {
+  font-size: 32px;
+  }
+
+  #whatido .fa {
+    font-size: 72px;
+    height: 112px;
+    line-height: 102px;
+    width: 112px;
+  }
+
+  #whatiuse .fa {
+    font-size: 32px;
+    height: 62px;
+    line-height: 52px;
+    width: 62px;
+  }
+
+  #whatiuse .fa:hover {
+    font-size: 28px;
+  }
+
+  #footer .fa {
+    font-size: 72px;
+    height: 72px;
+    line-height: 72px;
+    width: 72px;
+  }
+}
+
+@media only screen and (max-width: 520px) {
+   #home {
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%; 
+    font-size: 62px; 
+   }
+
+   #home .sub-text-cover {
+    font-size: 12px;
+  }
+
+  #about h2{
+    font-size: 26px;
+  }
+
+  #about .aboume-1 {
+    font-size: 11px;
+  }
+
+  #about .aboume-2 {
+    font-size: 11px;
+  }
+
+  #about .aboume-3 {
+    font-size: 12px;
+  }
+
+  #subtext-1,
+  #subtext-2 {
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+  }
+
+  #subtext-1 .motto,
+  #subtext-2 .motto {
+  font-size: 22px;
+  }
+
+  #subtext-1 footer,
+  #subtext-2 footer {
+  font-size: 11px;
+  }
+
+  .pad-section {
+    padding: 15px 2px; 
+  }
+
+  #whatido .fa {
+    font-size: 32px;
+    height: 62px;
+    line-height: 52px;
+    width: 62px;
+  }
+
+  #whatido h2 {
+  font-size: 26px;
+  }
+
+  #whatido_bot_half .panel-title {
+    font-size: 13px;
+  }
+
+  #whatido_bot_half .panel-body {
+    font-size: 12px;
+  }
+
+  #whatiuse .fa {
+    font-size: 30px;
+    height: 60px;
+    line-height: 50px;
+    width: 60px;
+  }
+
+  #whatiuse h2 {
+  font-size: 20px;
+  }
+
+  #whatiuse_bot_half .panel-title {
+    font-size: 13px;
+  }
+
+  #whatiuse_bot_half .panel-body {
+    font-size: 12px;
+  }
+
+  #whatiuse .fa:hover {
+    font-size: 26px;
+  }
+  
+   #footer .fa {
+    font-size: 52px;
+    height: 52px;
+    line-height: 52px;
+    width: 52px;
+  }
+}
+
+@media only screen and (max-width: 270px) {
+  #home { 
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+    font-size: 38px; 
+  }
+
+  #home .sub-text-cover {
+    font-size: 11px;
+  }
+
+  #about h2{
+    font-size: 22px;
+  }
+
+  #about .aboume-1 {
+    font-size: 10px;
+  }
+
+  #about .aboume-2 {
+    font-size: 10px;
+  }
+
+  #about .aboume-3 {
+    font-size: 11px;
+  }
+
+  #subtext-1,
+  #subtext-2 {
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+  }
+
+  #subtext-1 .motto,
+  #subtext-2 .motto {
+  font-size: 18px;
+  }
+
+  #subtext-1 footer,
+  #subtext-2 footer {
+  font-size: 10px;
+  }
+  
+  nav .fa {
+    font-size: 36px;
+    line-height: 36px;
+    width: 36px;
+  }
+
+  #whatido h2 {
+  font-size: 20px;
+  }
+
+  #whatido_bot_half .panel-title {
+    font-size: 12px;
+  }
+
+  #whatido_bot_half .panel-body {
+    font-size: 11px;
+  }
+
+  #whatiuse .fa {
+    font-size: 22px;
+    height: 52px;
+    line-height: 42px;
+    width: 52px;
+  }
+
+  #whatiuse h2 {
+  font-size: 16px;
+  }
+
+  #whatiuse_bot_half .panel-title {
+    font-size: 12px;
+  }
+
+  #whatiuse_bot_half .panel-body {
+    font-size: 11px;
+  }
+
+  #whatiuse .fa:hover {
+    font-size: 18px;
+  }
+
+  #footer .fa {
+    font-size: 36px;
+    height: 36px;
+    line-height: 36px;
+    width: 36px;
+  }
+}
